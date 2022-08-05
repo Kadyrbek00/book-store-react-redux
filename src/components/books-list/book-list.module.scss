@@ -1,39 +1,40 @@
 .book {
-    &_list {
-        list-style: none;
+  &_list {
+    list-style: none;
+  }
 
+  &_list_item {
+    display: flex;
+    margin: 15px 0;
+  }
+
+  &_cover {
+    flex-shrink: 0;
+    width: 140px;
+    margin-right: 30px;
+
+    img {
+      max-width: 100%;
     }
+  }
 
-    &_list_item {
-        display: flex;
-        margin: 15px 0;
-    }
+  &_title {
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
 
-    &_cover {
-        flex-shrink: 0;
-        width: 140px;
-        margin-right: 30px;
+  &_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: flex-start;
+  }
 
-        img {
-            max-width: 100%;
-        }
-    }
+  &_price {
+    font-size: 1.4rem;
+  }
 
-    &_title {
-        text-decoration: none;
-        font-style: 1.2rem;
-    }
-
-    &_details {
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between;
-        padding-bottom: 10px;
-        align-items: flex-start;
-    }
-
-    &_price {}
-
-    &_author {}
-
+  &_author {
+  }
 }

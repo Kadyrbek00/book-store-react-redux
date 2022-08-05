@@ -1,3 +1,3 @@
 import WithConsumer from "./with-consumer";
 
-export { WithConsumer }
+export {WithConsumer}

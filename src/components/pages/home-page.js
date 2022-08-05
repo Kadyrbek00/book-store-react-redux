@@ -1,13 +1,14 @@
-import BookListContainer from "../books-list/book-list";
-import ShoppingCartTable from "../shopping-cart-table/cart-table";
+import BookListContainer from "../books-list/books-list";
+import ShoppingCartTable from "../shopping-cart-table";
 
-export default function HomePage() {
+const HomePage = () => {
+  return (
+    <div>
+      <BookListContainer />
 
-    return (
-        <>
-            <BookListContainer/>
+      <ShoppingCartTable />
+    </div>
+  );
+};
 
-            <ShoppingCartTable/>
-        </>
-    )
-}
+export default HomePage;
